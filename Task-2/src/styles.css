@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: rgb(211, 83, 83);
+}
+#firstlayer {
+  display: flex;
+  justify-content: space-between;
+  background: #7a8761;
+}
+button {
+  color: #0be5d1;
+  background-color: #746767;
+  cursor: pointer;
+}
+#usergrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#secondlayer {
+  margin: 5px;
+  border: rgba(97, 20, 20, 0.808) solid;
+  border-radius: 30px;
+  padding: 10px;
+}
+img {
+  clip-path: circle();
+}
